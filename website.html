@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Store Page</title>
+           <!-- <link rel="node_modules/bootstrap/dist/css/bootstrap.css">  -->
+           <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css"> 
+           <!-- <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap-utilities.css">  -->
+        <script src="website.js" type="text/javascript";>
+            
+        </script>
+    </head>
+    <body class="container-fluid">
+<div class="d-flex justify-content-center align-items-center" style=" height: 500px;">
+    <div>
+    <h class="mb-3">Login</h>
+    <div style="border: solid 2px black; border-radius: 5px; padding:30px; background-color:cornflowerblue;">
+        <div>
+            <label for="email" class="form-label">Email</label>
+            <div>
+                <input type="text" id="email" class="form-control" onblur="validemail()">
+            </div>
+        </div>
+       
+        <div>
+            <label for="password" class="form-label">Password</label>
+            <div>
+                <input type="password" id="password" class="form-control" disabled onkeyup="onpass()">
+            </div>
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto" style="margin-top: 15px;">
+            <button class="btn btn-primary" id="login" disabled onclick="login()">login</button>
+        </div>
+        <div id="success"></div>
+    </div>
+    </div>
+</div>
+  
+    </body>
+</html>

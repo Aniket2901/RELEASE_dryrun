@@ -1,0 +1,176 @@
+
+*{
+    margin: 0;
+    font-family: sans-serif;
+    padding: 0;
+}
+
+header{
+    /* display: flex; */
+    justify-items:center;
+    background-color: #FFFFFF;
+    /* border-bottom:1px solid #4b4b4b; */
+}
+.nav_container{
+    display: flex;
+    height: 36px;
+    /* align-items: center; */
+    justify-content: start;
+    width: 1260px;
+    color: #4b4b4b;
+}
+.nav_container1{
+    display: flex;
+    height: 40px;
+    /* align-items: center;
+    justify-content: space-between; */
+    width: 1260px;
+    color: #4b4b4b;
+    /* padding-left: 100px; */
+}
+.nav_tags{
+    /* display: flex; */
+    background-color: #fed8bd;
+    height: 31px;
+    width: 300px;
+    border-radius: 0px 0px 10px 10px;
+    font-size: 15px;
+   
+}
+ul li{
+    list-style-type: none;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0;
+}
+li:hover{
+    font-weight: bold;
+    height: 31px;
+    background-color: #f18121;
+    padding: 5px;
+    border-radius: 0px 0px 10px 10px;
+    color: white;
+
+}
+li div{
+   margin: 0px 8px 0px 8px;
+}
+.right_nav{
+ display: flex;
+ width: 900px;
+ justify-content: space-evenly;
+ align-items: center;
+ color: #333333;
+ font-size: 14px;
+ font-weight: 400;
+ padding-left: 100px;
+}
+.right_nav div:hover{
+    color: #f37e20;
+    cursor: pointer;
+}
+#nav_phone{
+    background-color: #fed8bd;
+    height: 30px;
+    align-content: center;
+    width: 110px;
+    border-radius: 15px;
+}
+#nav_phone a{
+    padding: 4px 16px 4px 2px;
+}
+#nav_phone div{
+    width: 30px;
+    background-color: #b02a30;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 50%;
+    padding: 5px;
+}
+#icici_logo{
+   height: 40px;
+   background-image: url("assets/icici_logo.png");
+   background-size: cover;
+   width: 140px;
+   display: inline;
+}
+#nav_search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 546px;
+    height: 36px;
+    border-radius: 20px;
+    border: solid 1.5px #f37e20;
+    background-color: #fff;
+    outline: 0;
+    color: #f5821f;
+    position: relative;
+    font-family: Muli, sans-serif;
+    font-weight: 500;
+    padding-left: 14px;
+}
+.nav_search_container{
+margin-left: 300px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+width: 760px;
+}
+.search{
+    border: none;
+    width: 87%;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    color: #3d3d3d;
+}
+.search:focus-visible{
+    outline: none;
+}
+#nav_search div{
+    width: 24px;
+    background-color:#f38227;
+    height: 24px;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 3px;
+    color: white;
+    justify-items: center;
+    /* align-items: center; */
+}
+#nav_search div i{
+    margin-left: 2px;
+}
+.login_button{
+    border-radius: 15px;
+    width: 85px;
+    height: 30px;
+    border: 0;
+    background-color: #f37e20;
+    color: white;
+}
+#notification{
+    font-size: 20px;
+}
+.nav_container2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    background-color: #fed8bd;
+    padding-left: 90px;
+    padding-right: 180px;
+}
+.nav_container2 p{
+    margin-top: 15px;
+    opacity: 0.5;
+}
+.nav_container2 a:hover{
+ border-bottom:2px solid #f38227 ;
+}

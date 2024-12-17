@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            // to reverse string
+          function rev(para){
+            var str="";
+            for(item of para){
+                str=item + str;
+            }
+            document.write(`your input is ${para} and after reverse ${str}`);
+
+          }
+            </script>
+    </head>
+    <body>
+        <!-- <fieldset>
+            <legend> -->
+                <div>
+                    your pin : <input type="text" id="pin"><button id="submit" onclick="rev(document.getElementById('pin').value)">submit</button>
+                </div>
+                <p id="err"></p>
+            <!-- </legend>
+        </fieldset> -->
+    </body>
+</html>
+
